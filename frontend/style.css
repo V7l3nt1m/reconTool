@@ -530,6 +530,93 @@ pre.raw-json {
   background: var(--bg-panel-alt);
 }
 
+/* ------------------------------------------------------------
+   opções de análise: headers customizados + toggles
+   ------------------------------------------------------------ */
+.options-panel { margin-top: 10px; }
+.options-panel__toggle {
+  background: none; border: none; color: var(--text-dim);
+  font-family: var(--mono); font-size: 11px; cursor: pointer;
+  padding: 4px 0; text-decoration: underline dotted;
+}
+.options-panel__toggle:hover { color: var(--accent); }
+.options-panel__body {
+  margin-top: 10px; padding: 12px; border: 1px solid var(--border);
+  border-radius: var(--radius); background: var(--bg-panel-alt);
+  display: flex; flex-direction: column; gap: 12px;
+}
+.options-panel__row { display: flex; flex-direction: column; gap: 4px; }
+.options-panel__row label { font-size: 11px; color: var(--text-dim); }
+.options-panel textarea {
+  width: 100%; min-height: 70px; resize: vertical;
+  background: var(--bg); border: 1px solid var(--border); color: var(--text);
+  font-family: var(--mono); font-size: 12px; padding: 8px; border-radius: var(--radius);
+}
+.options-panel textarea:focus { outline: none; border-color: var(--accent); }
+.options-panel__checks { display: flex; flex-wrap: wrap; gap: 14px; }
+.options-panel__check {
+  display: flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--text);
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------
+   badges de relevância
+   ------------------------------------------------------------ */
+.badge {
+  display: inline-block; padding: 1px 7px; border-radius: 10px;
+  font-size: 10px; text-transform: uppercase; letter-spacing: 0.04em;
+  border: 1px solid currentColor;
+}
+.badge--critical { color: var(--danger); }
+.badge--high { color: var(--danger); opacity: 0.85; }
+.badge--medium { color: var(--amber); }
+.badge--low { color: var(--text-dim); }
+
+/* ------------------------------------------------------------
+   linha de endpoint + painel de execução ("Executar")
+   ------------------------------------------------------------ */
+.endpoint-row {
+  border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--bg-panel-alt); margin-bottom: 10px; overflow: hidden;
+}
+.endpoint-row__head {
+  display: flex; align-items: center; gap: 10px; padding: 10px 12px;
+  flex-wrap: wrap;
+}
+.endpoint-row__path { flex: 1; min-width: 180px; word-break: break-all; }
+.endpoint-row__methods { color: var(--cyan); font-size: 11px; }
+.endpoint-row__module { color: var(--text-faint); font-size: 10.5px; }
+.exec-panel {
+  border-top: 1px solid var(--border); padding: 12px; display: none;
+  flex-direction: column; gap: 10px; background: var(--bg);
+}
+.exec-panel.is-open { display: flex; }
+.exec-panel__row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.exec-panel select, .exec-panel textarea, .exec-panel input {
+  background: var(--bg-panel-alt); border: 1px solid var(--border); color: var(--text);
+  font-family: var(--mono); font-size: 12px; padding: 6px 8px; border-radius: var(--radius);
+}
+.exec-panel textarea { width: 100%; min-height: 60px; resize: vertical; }
+.exec-panel__result {
+  border: 1px solid var(--border); border-radius: var(--radius);
+  background: var(--bg-panel-alt); padding: 10px; font-size: 11.5px;
+}
+.exec-panel__result .status-ok { color: var(--accent); }
+.exec-panel__result .status-warn { color: var(--amber); }
+.exec-panel__result .status-err { color: var(--danger); }
+.exec-panel__meta { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 8px; font-size: 11px; color: var(--text-dim); }
+.exec-panel__note {
+  border-left: 2px solid var(--amber); padding: 6px 10px; margin: 8px 0;
+  color: var(--amber); font-size: 11px; background: rgba(255,180,84,0.06);
+}
+
+/* ------------------------------------------------------------
+   cadeia de redirecionamentos
+   ------------------------------------------------------------ */
+.redirect-chain { display: flex; flex-direction: column; gap: 4px; margin: 10px 0; font-size: 11.5px; }
+.redirect-chain__hop { display: flex; gap: 8px; align-items: center; }
+.redirect-chain__hop .arrow { color: var(--text-faint); }
+
 /* scrollbars */
 ::-webkit-scrollbar { width: 8px; height: 8px; }
 ::-webkit-scrollbar-track { background: var(--bg-panel); }

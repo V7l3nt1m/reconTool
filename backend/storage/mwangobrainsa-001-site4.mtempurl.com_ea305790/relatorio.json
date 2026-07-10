@@ -1,0 +1,754 @@
+{
+  "target": "https://mwangobrainsa-001-site4.mtempurl.com",
+  "final_url": "https://mwangobrainsa-001-site4.mtempurl.com/index.html",
+  "technologies": [],
+  "technologies_detail": [],
+  "http": {
+    "status_code": 200,
+    "headers": {
+      "cache-control": "max-age=604800, private",
+      "transfer-encoding": "chunked",
+      "content-type": "text/html;charset=utf-8",
+      "content-encoding": "gzip",
+      "etag": "W/\"XpksuI7SK4ZUIzv9+JEi7bNIY14=\"",
+      "vary": "Accept-Encoding",
+      "x-swagger-ui-version": "5.29.2",
+      "date": "Fri, 10 Jul 2026 11:34:13 GMT"
+    },
+    "server": null,
+    "x_powered_by": null,
+    "content_type": "text/html;charset=utf-8",
+    "cache_control": "max-age=604800, private",
+    "etag": "W/\"XpksuI7SK4ZUIzv9+JEi7bNIY14=\"",
+    "redirect_chain": [
+      {
+        "status_code": 301,
+        "from_url": "https://mwangobrainsa-001-site4.mtempurl.com",
+        "location": "index.html"
+      }
+    ],
+    "final_url": "https://mwangobrainsa-001-site4.mtempurl.com/index.html",
+    "security_headers": {}
+  },
+  "cookies": [],
+  "files_downloaded": [
+    "index.html",
+    "swagger-ui-standalone-preset.js",
+    "index.js",
+    "swagger-ui-bundle.js"
+  ],
+  "js_files": [
+    {
+      "url": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js",
+      "size": 250335
+    },
+    {
+      "url": "https://mwangobrainsa-001-site4.mtempurl.com/index.js",
+      "size": 3181
+    },
+    {
+      "url": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-bundle.js",
+      "size": 1510168
+    }
+  ],
+  "endpoints": [],
+  "routes": [],
+  "robots_findings": [],
+  "sitemap_urls": [],
+  "api_docs": [],
+  "env_vars": [],
+  "secrets": [
+    {
+      "type": "basic_auth",
+      "match_preview": "Basic authorization",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-bundle.js"
+    }
+  ],
+  "jwts": [],
+  "storage_usage": [
+    {
+      "api": "localStorage",
+      "method": "setItem",
+      "key": "authorized",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-bundle.js"
+    },
+    {
+      "api": "localStorage",
+      "method": "getItem",
+      "key": "authorized",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-bundle.js"
+    }
+  ],
+  "pii": [
+    {
+      "type": "phone_intl",
+      "value": "+3864292196",
+      "relevance": "medium",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "phone_intl",
+      "value": "+2654435769",
+      "relevance": "medium",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "355462360",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "914150663",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "812702999",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "961987163",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "310598401",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "991336113",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "944711139",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "264347078",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "113926993",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "338241895",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "168717936",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "344077627",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "106217008",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "275423344",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "851169720",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "506948616",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "883997877",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "958139571",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "593698344",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "566280711",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "116418474",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "174292421",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "289380356",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "320620315",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "587496836",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "852142971",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "365543100",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "987167468",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "528734635",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "327033209",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "899497514",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "271733878",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "858993459",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "252645135",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-standalone-preset.js"
+    },
+    {
+      "type": "uuid",
+      "value": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "relevance": "low",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-bundle.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "130023424",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-bundle.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "134217728",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-bundle.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "268435456",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-bundle.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "536870912",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-bundle.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "268435455",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-bundle.js"
+    },
+    {
+      "type": "nif_pt",
+      "value": "987654310",
+      "relevance": "high",
+      "source_type": "javascript",
+      "source_file": "https://mwangobrainsa-001-site4.mtempurl.com/swagger-ui-bundle.js"
+    }
+  ],
+  "external_domains": [
+    "base",
+    "datatracker.ietf.org",
+    "example.com",
+    "fb.me",
+    "gist.github.com",
+    "github.com",
+    "instagram.com",
+    "json-schema.org",
+    "reactjs.org",
+    "redux.js.org",
+    "soundcloud.com",
+    "spdx.org",
+    "spec.openapis.org",
+    "swagger.io",
+    "twitter.com",
+    "validator.swagger.io",
+    "vladimirgorej.com",
+    "www.facebook.com",
+    "www.rfc-editor.org",
+    "www.tiktok.com",
+    "www.w3.org"
+  ],
+  "external_domain_recon": [
+    {
+      "domain": "base",
+      "base_url": "https://base",
+      "reachable": false,
+      "redirect_chain": [],
+      "final_url": null,
+      "findings": [],
+      "error": "sem resposta (timeout ou conexão recusada)"
+    },
+    {
+      "domain": "example.com",
+      "base_url": "https://example.com",
+      "reachable": true,
+      "redirect_chain": [],
+      "final_url": "https://example.com",
+      "findings": [],
+      "status_code": 200
+    },
+    {
+      "domain": "datatracker.ietf.org",
+      "base_url": "https://datatracker.ietf.org",
+      "reachable": true,
+      "redirect_chain": [],
+      "final_url": "https://datatracker.ietf.org",
+      "findings": [
+        {
+          "path": "/admin",
+          "url": "https://datatracker.ietf.org/admin",
+          "status_code": 200,
+          "kind": "painel administrativo"
+        }
+      ],
+      "status_code": 200
+    },
+    {
+      "domain": "gist.github.com",
+      "base_url": "https://gist.github.com",
+      "reachable": true,
+      "redirect_chain": [
+        {
+          "status_code": 302,
+          "from_url": "https://gist.github.com",
+          "location": "https://gist.github.com/starred"
+        }
+      ],
+      "final_url": "https://gist.github.com/starred",
+      "findings": [
+        {
+          "path": "/swagger-ui/",
+          "url": "https://gist.github.com/swagger-ui/",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/docs",
+          "url": "https://gist.github.com/docs",
+          "status_code": 200,
+          "kind": "documentação/API"
+        }
+      ],
+      "status_code": 200
+    },
+    {
+      "domain": "github.com",
+      "base_url": "https://github.com",
+      "reachable": true,
+      "redirect_chain": [],
+      "final_url": "https://github.com",
+      "findings": [
+        {
+          "path": "/swagger-ui/",
+          "url": "https://github.com/swagger-ui/",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/docs",
+          "url": "https://github.com/docs",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/.well-known/security.txt",
+          "url": "https://github.com/.well-known/security.txt",
+          "status_code": 200,
+          "kind": "outro"
+        }
+      ],
+      "status_code": 200
+    },
+    {
+      "domain": "json-schema.org",
+      "base_url": "https://json-schema.org",
+      "reachable": true,
+      "redirect_chain": [],
+      "final_url": "https://json-schema.org",
+      "findings": [
+        {
+          "path": "/docs",
+          "url": "https://json-schema.org/docs",
+          "status_code": 200,
+          "kind": "documentação/API"
+        }
+      ],
+      "status_code": 200
+    },
+    {
+      "domain": "fb.me",
+      "base_url": "https://fb.me",
+      "reachable": true,
+      "redirect_chain": [],
+      "final_url": "https://fb.me",
+      "findings": [],
+      "status_code": 400
+    },
+    {
+      "domain": "reactjs.org",
+      "base_url": "https://reactjs.org",
+      "reachable": true,
+      "redirect_chain": [
+        {
+          "status_code": 308,
+          "from_url": "https://reactjs.org",
+          "location": "https://react.dev/"
+        }
+      ],
+      "final_url": "https://react.dev/",
+      "findings": [],
+      "status_code": 200
+    },
+    {
+      "domain": "redux.js.org",
+      "base_url": "https://redux.js.org",
+      "reachable": true,
+      "redirect_chain": [],
+      "final_url": "https://redux.js.org",
+      "findings": [],
+      "status_code": 200
+    },
+    {
+      "domain": "soundcloud.com",
+      "base_url": "https://soundcloud.com",
+      "reachable": true,
+      "redirect_chain": [],
+      "final_url": "https://soundcloud.com",
+      "findings": [
+        {
+          "path": "/docs",
+          "url": "https://soundcloud.com/docs",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/admin",
+          "url": "https://soundcloud.com/admin",
+          "status_code": 200,
+          "kind": "painel administrativo"
+        },
+        {
+          "path": "/.well-known/security.txt",
+          "url": "https://soundcloud.com/.well-known/security.txt",
+          "status_code": 200,
+          "kind": "outro"
+        }
+      ],
+      "status_code": 200
+    },
+    {
+      "domain": "instagram.com",
+      "base_url": "https://instagram.com",
+      "reachable": true,
+      "redirect_chain": [
+        {
+          "status_code": 301,
+          "from_url": "https://instagram.com",
+          "location": "https://www.instagram.com/"
+        }
+      ],
+      "final_url": "https://www.instagram.com/",
+      "findings": [
+        {
+          "path": "/swagger.json",
+          "url": "https://instagram.com/swagger.json",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/openapi.json",
+          "url": "https://instagram.com/openapi.json",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/swagger-ui/",
+          "url": "https://instagram.com/swagger-ui/",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/docs",
+          "url": "https://instagram.com/docs",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/admin",
+          "url": "https://instagram.com/admin",
+          "status_code": 200,
+          "kind": "painel administrativo"
+        },
+        {
+          "path": "/.well-known/security.txt",
+          "url": "https://instagram.com/.well-known/security.txt",
+          "status_code": 200,
+          "kind": "outro"
+        }
+      ],
+      "status_code": 200
+    },
+    {
+      "domain": "spec.openapis.org",
+      "base_url": "https://spec.openapis.org",
+      "reachable": true,
+      "redirect_chain": [],
+      "final_url": "https://spec.openapis.org",
+      "findings": [],
+      "status_code": 200
+    },
+    {
+      "domain": "swagger.io",
+      "base_url": "https://swagger.io",
+      "reachable": true,
+      "redirect_chain": [],
+      "final_url": "https://swagger.io",
+      "findings": [
+        {
+          "path": "/swagger-ui/",
+          "url": "https://swagger.io/swagger-ui/",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/docs",
+          "url": "https://swagger.io/docs",
+          "status_code": 200,
+          "kind": "documentação/API"
+        }
+      ],
+      "status_code": 200
+    },
+    {
+      "domain": "twitter.com",
+      "base_url": "https://twitter.com",
+      "reachable": true,
+      "redirect_chain": [
+        {
+          "status_code": 301,
+          "from_url": "https://twitter.com",
+          "location": "https://x.com/"
+        }
+      ],
+      "final_url": "https://x.com/",
+      "findings": [
+        {
+          "path": "/swagger.json",
+          "url": "https://twitter.com/swagger.json",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/openapi.json",
+          "url": "https://twitter.com/openapi.json",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/swagger-ui/",
+          "url": "https://twitter.com/swagger-ui/",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/docs",
+          "url": "https://twitter.com/docs",
+          "status_code": 200,
+          "kind": "documentação/API"
+        },
+        {
+          "path": "/admin",
+          "url": "https://twitter.com/admin",
+          "status_code": 200,
+          "kind": "painel administrativo"
+        },
+        {
+          "path": "/.well-known/security.txt",
+          "url": "https://twitter.com/.well-known/security.txt",
+          "status_code": 200,
+          "kind": "outro"
+        }
+      ],
+      "status_code": 200
+    },
+    {
+      "domain": "spdx.org",
+      "base_url": "https://spdx.org",
+      "reachable": true,
+      "redirect_chain": [
+        {
+          "status_code": 301,
+          "from_url": "https://spdx.org",
+          "location": "https://spdx.dev/"
+        }
+      ],
+      "final_url": "https://spdx.dev/",
+      "findings": [],
+      "status_code": 200
+    }
+  ],
+  "modules": [],
+  "headers_sent": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "pt-PT,pt;q=0.9,en-US;q=0.8,en;q=0.7"
+  },
+  "stats": {
+    "js_files": 3,
+    "endpoints": 0,
+    "routes": 0,
+    "external_domains": 21,
+    "api_docs": 0,
+    "api_docs_confirmed": 0,
+    "robots_findings": 0,
+    "secrets": 1,
+    "cookies": 0,
+    "jwts": 0,
+    "env_vars": 0,
+    "pii": 43,
+    "files_downloaded": 4
+  }
+}

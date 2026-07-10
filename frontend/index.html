@@ -60,6 +60,34 @@
           <span class="btn__bracket">[</span>EXECUTAR<span class="btn__bracket">]</span>
         </button>
       </div>
+
+      <div class="options-panel">
+        <button type="button" class="options-panel__toggle" onclick="toggleOptions()">
+          [+] opções avançadas (headers customizados, sondagens)
+        </button>
+        <div id="optionsBody" class="options-panel__body hidden">
+          <div class="options-panel__row">
+            <label for="customHeaders">
+              headers customizados (um por linha, formato "Nome: valor") — ex.: Authorization: Bearer eyJ..., Cookie: session=abc
+            </label>
+            <textarea id="customHeaders" placeholder="Authorization: Bearer ...&#10;Cookie: session=...&#10;X-Custom-Header: valor"></textarea>
+          </div>
+          <div class="options-panel__checks">
+            <label class="options-panel__check">
+              <input type="checkbox" id="optStackFiles" checked />
+              confirmar stack via arquivos característicos
+            </label>
+            <label class="options-panel__check">
+              <input type="checkbox" id="optExternalDomains" checked />
+              reconhecimento de domínios externos
+            </label>
+          </div>
+          <div class="dim" style="font-size:10.5px;">
+            redirecionamentos (301/302/307/308) são sempre seguidos automaticamente;
+            a análise continua no destino final e a cadeia fica documentada na aba HEADERS.
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- boot log -->
