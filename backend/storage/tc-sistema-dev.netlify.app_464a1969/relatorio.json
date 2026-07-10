@@ -1,0 +1,384 @@
+{
+  "target": "https://tc-sistema-dev.netlify.app",
+  "technologies": [
+    "Next.js"
+  ],
+  "http": {
+    "status_code": 200,
+    "headers": {
+      "age": "5",
+      "cache-control": "private,no-cache,no-store,max-age=0,must-revalidate",
+      "cache-status": "\"Netlify Durable\"; fwd=bypass, \"Netlify Edge\"; fwd=miss",
+      "content-encoding": "gzip",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Fri, 10 Jul 2026 09:55:18 GMT",
+      "netlify-vary": "query=__nextDataReq|_rsc,header=x-nextjs-data|x-next-debug-logging|next-router-prefetch|next-router-segment-prefetch|next-router-state-tree|next-url|rsc|accept-encoding,cookie=__prerender_bypass|__next_preview_data",
+      "server": "Netlify",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "vary": "rsc,next-router-state-tree,next-router-prefetch,next-router-segment-prefetch,Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-nf-request-id": "01KX5Q7RMP8G94EGPHFFF9HVR5",
+      "x-powered-by": "Next.js",
+      "transfer-encoding": "chunked"
+    },
+    "server": "Netlify",
+    "x_powered_by": "Next.js",
+    "content_type": "text/html; charset=utf-8",
+    "cache_control": "private,no-cache,no-store,max-age=0,must-revalidate",
+    "etag": null,
+    "security_headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "x-content-type-options": "nosniff"
+    }
+  },
+  "cookies": [],
+  "files_downloaded": [
+    "index.html",
+    "manifest.json",
+    "robots.txt",
+    "sitemap.xml",
+    "favicon.ico",
+    "_next_static_chunks_0k5h0p.bly-8e.js",
+    "_next_static_chunks_0k_ccp0p5df_b.js",
+    "_next_static_chunks_03_yq9q893hmn.js",
+    "_next_static_chunks_17lf7pkap8ilh.js",
+    "_next_static_chunks_0om5eqgpyrdsw.js",
+    "_next_static_chunks_079p5_fs9teg2.js",
+    "_next_static_chunks_0jpy1.jekxnf4.js",
+    "_next_static_chunks_turbopack-14og2w4ze1yaq.js",
+    "_next_static_chunks_169042b1f8air.js",
+    "_next_static_chunks_16dxkxjd8s-_o.js",
+    "_next_static_chunks_11mxb08.r.cu9.js",
+    "_next_static_chunks_0h8ea52.j.8fg.js",
+    "_next_static_chunks_0g6o_gvhtyx92.js",
+    "_next_static_chunks_0-_qbi5we3395.js",
+    "_next_static_chunks_0cx-tpwbjk_tq.js",
+    "_next_static_chunks_0ebg302dny2hk.js",
+    "_next_static_chunks_0rvq5g_3xzn8y.js",
+    "_next_static_chunks_07qjj8y7epu61.js",
+    "_next_static_chunks_0o1u0j0g2qqin.js",
+    "_next_static_chunks_04jvxoid_vpxj.js"
+  ],
+  "js_files": [
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0k5h0p.bly-8e.js",
+      "size": 28567
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0k~ccp0p5df_b.js",
+      "size": 26958
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/03~yq9q893hmn.js",
+      "size": 112594
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/17lf7pkap8ilh.js",
+      "size": 40010
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0om5eqgpyrdsw.js",
+      "size": 36482
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/079p5_fs9teg2.js",
+      "size": 52623
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0jpy1.jekxnf4.js",
+      "size": 44172
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/turbopack-14og2w4ze1yaq.js",
+      "size": 10614
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/169042b1f8air.js",
+      "size": 39358
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/16dxkxjd8s-~o.js",
+      "size": 28815
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/11mxb08.r.cu9.js",
+      "size": 27796
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0h8ea52.j.8fg.js",
+      "size": 54763
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0g6o~gvhtyx92.js",
+      "size": 45171
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0-~qbi5we3395.js",
+      "size": 45919
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0cx-tpwbjk_tq.js",
+      "size": 22452
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0ebg302dny2hk.js",
+      "size": 1129
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0rvq5g~3xzn8y.js",
+      "size": 154943
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/07qjj8y7epu61.js",
+      "size": 178219
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0o1u0j0g2qqin.js",
+      "size": 110029
+    },
+    {
+      "url": "https://tc-sistema-dev.netlify.app/_next/static/chunks/04jvxoid~vpxj.js",
+      "size": 227425
+    }
+  ],
+  "endpoints": [
+    {
+      "path": "/api",
+      "methods": [
+        "GET"
+      ],
+      "module": "outro",
+      "sources": [
+        "https://tc-sistema-dev.netlify.app/_next/static/chunks/0jpy1.jekxnf4.js"
+      ]
+    },
+    {
+      "path": "/v1/filing-types",
+      "methods": [
+        "GET"
+      ],
+      "module": "outro",
+      "sources": [
+        "https://tc-sistema-dev.netlify.app/_next/static/chunks/0-~qbi5we3395.js"
+      ]
+    },
+    {
+      "path": "/v1/filing-priorities",
+      "methods": [
+        "GET"
+      ],
+      "module": "outro",
+      "sources": [
+        "https://tc-sistema-dev.netlify.app/_next/static/chunks/0-~qbi5we3395.js"
+      ]
+    },
+    {
+      "path": "/v1/inbound-filings",
+      "methods": [
+        "GET"
+      ],
+      "module": "outro",
+      "sources": [
+        "https://tc-sistema-dev.netlify.app/_next/static/chunks/0-~qbi5we3395.js"
+      ]
+    },
+    {
+      "path": "/v1/inbound-filings/internal",
+      "methods": [
+        "GET"
+      ],
+      "module": "outro",
+      "sources": [
+        "https://tc-sistema-dev.netlify.app/_next/static/chunks/0-~qbi5we3395.js"
+      ]
+    },
+    {
+      "path": "/v1/inbound-filings/external",
+      "methods": [
+        "GET"
+      ],
+      "module": "outro",
+      "sources": [
+        "https://tc-sistema-dev.netlify.app/_next/static/chunks/0-~qbi5we3395.js"
+      ]
+    },
+    {
+      "path": "/v1/inbound-filings/recently-deleted",
+      "methods": [
+        "GET"
+      ],
+      "module": "outro",
+      "sources": [
+        "https://tc-sistema-dev.netlify.app/_next/static/chunks/0-~qbi5we3395.js"
+      ]
+    },
+    {
+      "path": "/v1/outbound-filings",
+      "methods": [
+        "GET"
+      ],
+      "module": "outro",
+      "sources": [
+        "https://tc-sistema-dev.netlify.app/_next/static/chunks/0-~qbi5we3395.js"
+      ]
+    },
+    {
+      "path": "/v1/filing-document-attachments",
+      "methods": [
+        "GET"
+      ],
+      "module": "outro",
+      "sources": [
+        "https://tc-sistema-dev.netlify.app/_next/static/chunks/0-~qbi5we3395.js"
+      ]
+    },
+    {
+      "path": "/v1/applicants",
+      "methods": [
+        "GET"
+      ],
+      "module": "outro",
+      "sources": [
+        "https://tc-sistema-dev.netlify.app/_next/static/chunks/0-~qbi5we3395.js"
+      ]
+    }
+  ],
+  "api_docs": [
+    {
+      "path": "/graphql",
+      "url": "https://tc-sistema-dev.netlify.app/graphql",
+      "status_code": 200
+    },
+    {
+      "path": "/rest",
+      "url": "https://tc-sistema-dev.netlify.app/rest",
+      "status_code": 200
+    },
+    {
+      "path": "/openapi.json",
+      "url": "https://tc-sistema-dev.netlify.app/openapi.json",
+      "status_code": 200
+    },
+    {
+      "path": "/openapi.yaml",
+      "url": "https://tc-sistema-dev.netlify.app/openapi.yaml",
+      "status_code": 200
+    },
+    {
+      "path": "/swagger.json",
+      "url": "https://tc-sistema-dev.netlify.app/swagger.json",
+      "status_code": 200
+    },
+    {
+      "path": "/swagger.yaml",
+      "url": "https://tc-sistema-dev.netlify.app/swagger.yaml",
+      "status_code": 200
+    },
+    {
+      "path": "/swagger",
+      "url": "https://tc-sistema-dev.netlify.app/swagger",
+      "status_code": 200
+    },
+    {
+      "path": "/swagger-ui",
+      "url": "https://tc-sistema-dev.netlify.app/swagger-ui",
+      "status_code": 200
+    },
+    {
+      "path": "/swagger-ui/index.html",
+      "url": "https://tc-sistema-dev.netlify.app/swagger-ui/index.html",
+      "status_code": 200
+    },
+    {
+      "path": "/docs",
+      "url": "https://tc-sistema-dev.netlify.app/docs",
+      "status_code": 200
+    },
+    {
+      "path": "/redoc",
+      "url": "https://tc-sistema-dev.netlify.app/redoc",
+      "status_code": 200
+    }
+  ],
+  "env_vars": [
+    "PUBLIC_DIR_MIDDLEWARE_CONFLICT"
+  ],
+  "secrets": [],
+  "jwts": [],
+  "storage_usage": [
+    {
+      "api": "localStorage",
+      "method": "setItem",
+      "key": "session_end_time",
+      "source_file": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0g6o~gvhtyx92.js"
+    },
+    {
+      "api": "localStorage",
+      "method": "setItem",
+      "key": "session_end_time",
+      "source_file": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0g6o~gvhtyx92.js"
+    },
+    {
+      "api": "localStorage",
+      "method": "setItem",
+      "key": "session_end_time",
+      "source_file": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0g6o~gvhtyx92.js"
+    }
+  ],
+  "pii": [
+    {
+      "type": "email",
+      "value": "joao.silva@gov.co.ao",
+      "source_file": "index.html"
+    },
+    {
+      "type": "nif_pt",
+      "value": "999999999",
+      "source_file": "https://tc-sistema-dev.netlify.app/_next/static/chunks/17lf7pkap8ilh.js"
+    },
+    {
+      "type": "email",
+      "value": "suporte@tc.ao",
+      "source_file": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0cx-tpwbjk_tq.js"
+    },
+    {
+      "type": "uuid",
+      "value": "00000000-0000-0000-0000-000000000000",
+      "source_file": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0rvq5g~3xzn8y.js"
+    },
+    {
+      "type": "uuid",
+      "value": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+      "source_file": "https://tc-sistema-dev.netlify.app/_next/static/chunks/0rvq5g~3xzn8y.js"
+    }
+  ],
+  "external_domains": [
+    "a",
+    "api.gov.ao",
+    "fb.me",
+    "github.com",
+    "json-schema.org",
+    "localhost",
+    "n",
+    "nextjs.org",
+    "radix-ui.com",
+    "react.dev",
+    "www.w3.org",
+    "x"
+  ],
+  "modules": [
+    "outro"
+  ],
+  "stats": {
+    "js_files": 20,
+    "endpoints": 10,
+    "external_domains": 12,
+    "api_docs": 11,
+    "secrets": 0,
+    "cookies": 0,
+    "jwts": 0,
+    "env_vars": 1,
+    "pii": 5,
+    "files_downloaded": 25
+  }
+}

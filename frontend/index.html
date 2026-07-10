@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8" />
+<title>recon-tool // passive reconnaissance</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="rainCanvas"></canvas>
+<div class="scanlines"></div>
+<div class="vignette"></div>
+
+<div class="crt">
+
+  <!-- barra de janela de terminal -->
+  <div class="winbar">
+    <div class="winbar__dots">
+      <span class="dot dot--a"></span>
+      <span class="dot dot--b"></span>
+      <span class="dot dot--c"></span>
+    </div>
+    <div class="winbar__path">root@recon-tool<span class="dim">:</span>~/audit<span class="caret">▌</span></div>
+    <div class="winbar__status" id="connStatus">
+      <span class="pulse"></span> API <span id="apiState">a verificar…</span>
+    </div>
+  </div>
+
+  <main class="shell">
+
+    <!-- banner -->
+    <header class="banner">
+      <pre class="banner__ascii" aria-hidden="true">
+██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗
+██╔══██╗██╔════╝██╔════╝██╔══██╗████╗  ██║
+██████╔╝█████╗  ██║     ██║  ██║██╔██╗ ██║
+██╔══██╗██╔══╝  ██║     ██║  ██║██║╚██╗██║
+██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║
+╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝</pre>
+      <p class="banner__sub">
+        <span class="accent">[ reconhecimento passivo ]</span>
+        coleta de informações estática &mdash; sem exploração, sem força bruta, sem escrita no alvo.
+        <span class="dim">auditorias autorizadas &amp; fins didáticos.</span>
+      </p>
+    </header>
+
+    <!-- prompt de comando -->
+    <section class="terminal-panel prompt-panel">
+      <div class="panel__label">$ target</div>
+      <div class="prompt-line">
+        <span class="prompt-line__prefix">recon &gt;</span>
+        <span class="prompt-line__cmd">analyze</span>
+        <input id="urlInput" class="prompt-input" type="text"
+               placeholder="https://empresa.com" autocomplete="off" spellcheck="false" />
+        <button id="analyzeBtn" class="btn btn--primary" onclick="startAnalysis()">
+          <span class="btn__bracket">[</span>EXECUTAR<span class="btn__bracket">]</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- boot log -->
+    <section id="bootPanel" class="terminal-panel boot-panel hidden">
+      <div class="panel__label">$ log de execução</div>
+      <div class="boot-log__meter">
+        <div class="boot-log__meter-fill" id="progressBar"></div>
+        <span class="boot-log__meter-text" id="progressPct">0%</span>
+      </div>
+      <div id="bootLog" class="boot-log"></div>
+    </section>
+
+    <!-- pesquisa -->
+    <section id="searchPanel" class="terminal-panel hidden">
+      <div class="panel__label">$ grep --global</div>
+      <div class="prompt-line">
+        <span class="prompt-line__prefix">recon &gt;</span>
+        <span class="prompt-line__cmd">grep</span>
+        <input id="searchInput" class="prompt-input" type="text"
+               placeholder="endpoint, token, secret, email..." autocomplete="off" spellcheck="false"
+               onkeydown="if(event.key==='Enter') doSearch()"/>
+        <button class="btn btn--ghost" onclick="doSearch()">
+          <span class="btn__bracket">[</span>BUSCAR<span class="btn__bracket">]</span>
+        </button>
+      </div>
+      <div id="searchResults" class="search-results hidden"></div>
+    </section>
+
+    <!-- resultados -->
+    <section id="resultsPanel" class="results hidden">
+      <nav id="tabs" class="tabs"></nav>
+      <div id="tabContent" class="terminal-panel tab-content"></div>
+
+      <div class="export-row">
+        <span class="dim">$ export --format</span>
+        <button class="btn btn--tiny" onclick="exportReport('json')">json</button>
+        <button class="btn btn--tiny" onclick="exportReport('markdown')">markdown</button>
+        <button class="btn btn--tiny" onclick="exportReport('csv')">csv</button>
+        <button class="btn btn--tiny" onclick="exportReport('html')">html</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span class="dim">recon-tool v1.0</span>
+    <span class="dim">·</span>
+    <span class="dim">reconhecimento passivo apenas</span>
+    <span class="dim">·</span>
+    <span class="dim">use somente em alvos autorizados</span>
+  </footer>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
