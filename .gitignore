@@ -1,0 +1,50 @@
+# Pastas de ambiente virtual Python
+venv/
+.venv/
+
+# Dependências
+node_modules/
+backend/__pycache__/
+backend/storage/
+
+# Arquivos compilados
+dist/
+build/
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+
+# Configurações locais
+.env
+.env.*
+*.env
+
+# Banco de dados local
+*.sqlite
+*.db
+
+# Pastas de análise/resultados
+reports/
+results/
+output/
+downloads/
+
+# Arquivos grandes
+*.apk
+*.ipa
+*.zip
+
+# Cache
+.cache/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
